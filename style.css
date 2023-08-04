@@ -2,11 +2,13 @@
     --branco-principal: #FFFFFF;
     --cinza-secundario: #3a3636;
     --botao-azul: #167BF7;
-    --cor-de-fundo: #00030C;  
+    --cor-de-fundo: #00030C;
+--fonte-principal: ‘Inter’;  
 }
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: var(--fonte-principal);
     }
     * {
         margin: 0;
